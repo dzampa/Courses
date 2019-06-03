@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Curso JavaScript</title>
+    </head>
+    <body>
+        <button id="new">Novo</button>
+        <div id="quadrado"></div>
+        <div id="listaul">
+            <input type="text" name="nome">
+            <button onClick="adicionar()">Adicionar</button>
+            <ul id="lista"></ul>
+        </div>
+
+        <script>
+
+            function getRandomColor() {
+                var letters = "0123456789ABCDEF";
+                var color = "#";
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                };
+                return color;
+            };
+
+            var btnElement = document.getElementById('new');
+            var quadradoElement = document.getElementById('quadrado');
+
+            btnElement.onclick = function(){
+                var quadrado = document.createElement('div');
+                quadrado.style.width = '100px';
+                quadrado.style.height = '100px';
+                quadrado.style.background = "#F00";
+
+                quadrado.onmouseover = function(){
+                    quadrado.style.background = getRandomColor();
+                }
+
+                quadradoElement.appendChild(quadrado);
+
+            };   
+
+            var nomes = ["Diego", "Gabriel", "Lucas"];
+            var listElement = document.getElementById('lista');
+
+            function criaLista(nomes){                
+
+                for (nome of nomes){
+                    var list = document.createElement('li');
+                    list.textContent = nome;
+                    listElement.appendChild(list);
+                };
+            }      
+
+            criaLista(nomes);   
+
+            var inputElement = document.querySelector('input');
+
+            function adicionar(){
+                var list = document.createElement('li');
+                list.textContent = inputElement.value;
+                inputElement.value = "";
+                listElement.appendChild(list);
+            };
+ 
+        </script>
+
+    </body>
+</html>
