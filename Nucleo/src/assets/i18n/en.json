@@ -1,0 +1,57 @@
+{
+    "MENU": {
+        "M1": "THE NÚCLEO",
+        "M2": "SERVICES",
+        "M3": "CLIENTS",
+        "M4": "CONTACT"
+    },
+    "MAIN": {
+        "TITLE": "The Núcleo",
+        "P1": "Since 1986 in the IT market, we have strong experience in the consulting project execution, business process transformation and systems development utilizing Agile and traditional methodologies.",
+        "P2": "We have experienced consultants, architects and developers in the main system tecnologics",
+        "P3": "We firmly believe that we can provide the knowledge needed to carry out the project by seeking a partnership of long.",
+        "SUBTL1": "Expectations",
+        "P4":"Reach the alignment in the strategic objectives on our customers.",
+        "P5":"upport our customers, aiming at a Digital BackOffice",
+        "P6":"Transform opportunities in reality",
+        "SUBTL2": "Values",
+        "P7": "Commitment, ethic, transparency, efficiency and simplicity",
+        "SUBTL3": "MISSION, VISION AND VALUES"
+    },
+    "SERVICES":{
+      "TITLE1": "Experience",
+      "P1": "- Process Automation",
+      "P2": "- Digital BackOffice",
+      "P3": "- Digital Transformation",
+      "P4": "- Inovation Projects",
+      "P5": "- Business Consulting",    
+      "TITLE2": "Capacity",
+      "P6": "-  Consultants and Business Analyst",
+      "P7": "- Developers Analysts",
+      "P8": "- Functionals Architects and Technician",
+      "P9": "- Tests & QA",    
+      "TITLE3": "Strategy of Delivery",
+      "P10": "- Methodology & Approach:",
+      "P11": "- Traditional Waterfall",
+      "P12": "- Agile-Scrum",
+      "P13": "- Design Thinking and DevOps",
+      "P14": "- Allocation Strategy",
+      "P15": "- On-Site and Off-Site"
+    },
+    "CONTACT": {
+      "TITLE": "Contacts",
+      "P1": "Executive Director",
+      "P2": "César Salvi Str., nº 69 – Parque dos Príncipes",
+      "P3": "Osasco / SP - ZIP CODE 06030-490",
+      "P4": "T +55 11 99609-1015",
+      "TEXT": "Contact us!"
+    },
+    "CLIENT": {
+      "HOME": "CLIENTS"
+    },
+    "FOOTER": {
+      "TITLE": "SOCIAL NETWORKING",
+      "TEXT": "© 2019 Núcleo Informática. All Rights Reserved"
+    }
+    
+}

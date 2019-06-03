@@ -1,0 +1,19 @@
+/* HEADER */
+/* -------------------------------------------- */
+header{ width:100% ; border:solid 0px; height:92px; background-image:url(../../assets/images/back_topo.png); position:fixed; z-index:2;}
+header .center{ height:77px; border:solid 0px !important;}
+header .center img{ margin-top:4px; margin-left:0px;}
+header nav{ border:solid 0px; padding-left:142px; margin-top:-56px;}
+
+#menu { margin:0 auto; list-style:none; position:relative; width:100%; margin-top:7px; border:solid 0px;  text-align:left;}
+#menu li { display:inline-block; border:solid 0px; border-left:solid 1px; border-color:#a7a9ac; text-align:center;}
+#menu li:first-child { display:inline-block; border:solid 0px; border-left:solid 0px; border-color:#a7a9ac; text-align:center}
+#menu li a {color: #a7a9ac; font-size:17px; height:20px; float:left;padding: 0px 16px 0px 16px; text-decoration: none;text-transform: uppercase; font-family: 'Josefin Sans', sans-serif; font-weight:300 !important; position:relative; z-index:1;}
+#menu li:hover a {color:#16133c; font-size:17px;  font-family: 'Josefin Sans', sans-serif; font-weight:600 !important; margin-left:-2px; border:solid 0px;}
+#magic-line {position:absolute; bottom:-11px; left:0; width:110px; height:2px; background:#16133c; border-left:solid 0px !important; z-index:0; border:solid 1px !important;}
+
+.current_page_item a{color:#16133c!important; font-size:17px!important;  font-family: 'Josefin Sans', sans-serif !important; font-weight:600 !important; margin-left:-2px;}
+.ie6 #menu li, .ie7 #menu li { display: inline; }
+.ie6 #magic-line {bottom: -3px;}
+
+#flag{margin: -27px 3px 0px auto;width: 52px;}

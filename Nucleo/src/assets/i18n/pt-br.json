@@ -1,0 +1,57 @@
+{
+  "MENU": {
+      "M1": "A NÚCLEO",
+      "M2": "SERVIÇOS",
+      "M3": "CLIENTES",
+      "M4": "CONTATO"
+  },
+  "MAIN": {
+    "TITLE": "A Núcleo",
+    "P1": "Desde 1986 no Mercado de TI, possuímos forte experiência na execução de projetos de consultoria, transformação de processos de negócio e desenvolvimento de sistemas utilizando metodologias Ágeis e Tradicionais.",
+    "P2": "Contamos com consultores, arquitetos e desenvolvedores experientes nas principais tecnologias de sistemas.",
+    "P3": "Acreditamos fortemente que podemos aportar a competência necessária para a execução do projeto buscando uma parceria de longo prazo.",
+    "SUBTL1": "Expectativas",
+    "P4":"Atingir o alinhamento nos objetivos estratégicos de nossos clientes",
+    "P5":"Apoiar nossos clientes, visando um BackOffice Digital",
+    "P6":"Transformar oportunidades em realidade",
+    "SUBTL2": "Valores",
+    "P7": "Compromisso, ética, transparência, eficiência e simplicidade.",
+    "SUBTL3": "MISSÃO, VISÃO E VALORES"
+  },
+  "SERVICES":{
+    "TITLE1": "Experiência",
+    "P1": "- Automação de Processos",
+    "P2": "- BackOffice Digital",
+    "P3": "- Transformação Digital",
+    "P4": "- Projetos de Inovação",
+    "P5": "- Consultoria de Negócios",    
+    "TITLE2": "Capacidade",
+    "P6": "- Consultores e Analista de Negócios",
+    "P7": "- Analistas Desenvolvedores",
+    "P8": "- Arquitetos Funcionais e Técnicos",
+    "P9": "- Testes & QA",    
+    "TITLE3": "Estratégia de Entrega",
+    "P10": "- Metodologia & Abordagem:",
+    "P11": "- Tradicional Waterfall",
+    "P12": "- Agile-Scrum",
+    "P13": "- Design Thinking e DevOps",
+    "P14": "- Estratégia de Alocação",
+    "P15": "- On-Site e Off-Site"
+    
+  },
+  "CLIENT": {
+    "HOME": "CLIENTES"
+  },  
+  "CONTACT": {
+    "TITLE": "Contatos",
+    "P1": "Diretor Executivo",
+    "P2": "Rua César Salvi, nro 69 – Parque dos Príncipes",
+    "P3": "Osasco / SP - CEP 06030-490",
+    "P4": "T +55 11 99609-1015",
+    "TEXT": "Entre em contato!"
+  },
+  "FOOTER": {
+    "TITLE": "REDES SOCIAIS",
+    "TEXT": "© 2019 Núcleo Informática. Todos os direitos reservados"
+  }
+}

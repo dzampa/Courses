@@ -1,0 +1,22 @@
+<header>
+  <div class="center"> 
+    <a [routerLink]="['index']" routerLinkActive="router-link-active"><img src="./assets/images/logo-nucleo.png" width="140" height="68" alt="Núcleo"></a>
+    <nav class="nav-wrap">
+      <ul class="group" id="menu">
+        <li style=" width:70px;"></li>
+        <li><a [routerLink]="['index']" routerLinkActive="active" >{{ 'MENU.M1' | translate }}</a></li>
+        <li><a [routerLink]="['services']" routerLinkActive="active">{{ 'MENU.M2' | translate }}</a></li>
+        <li><a [routerLink]="['clients']" routerLinkActive="active">{{ 'MENU.M3' | translate }}</a></li>
+        <li><a [routerLink]="['contact']" routerLinkActive="active">{{ 'MENU.M4' | translate }}</a></li>
+        <div id="flag">
+          <div id="languages">
+            <a (click)="translate.useLanguage('pt-br')"><img src="./assets/images/flags_br.png"></a>
+            <a (click)="translate.useLanguage('en')"><img src="./assets/images/flags_en.png"></a>
+          </div>
+        </div>
+        <li id="magic-line"></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section class="banner-client" style="height:75px !important;"></section>

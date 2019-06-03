@@ -1,0 +1,63 @@
+/*font*/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600);
+
+/*reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, input {border:0; color:inherit; font-size:100%; font-style:inherit; font-weight:inherit; margin:0; outline:0; padding:0; text-decoration:none; vertical-align:baseline;}
+:focus {outline:0;}
+b, strong {font-weight:bold;}
+
+ol, ul {list-style:none;}
+table {border-collapse:separate; border-spacing:0;}
+caption, th, td {font-weight:normal; text-align:left;}
+blockquote:before, blockquote:after,
+q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {display:block;}
+header, footer, section {float:left; width:100%; min-width:952px;}
+footer, section {overflow:hidden;}
+audio, canvas, video {display:inline; display:inline-block; zoom:1;}
+audio:not([controls]) {display:none; height:0;}
+[hidden] {display:none;}
+*{-moz-box-sizing:border-box;box-sizing:border-box;}
+
+/* CONFIGURACAO DA BASE */
+body { overflow-y: scroll}
+
+.center { width:960px; margin:0 auto; position:relative; border:solid 0px}
+::selection{background:#6f6f6f; color:#FFFFFF}
+::-moz-selection{background:#ffffff; color:#FFFFFF}
+
+.current_page_item a{color:#16133c!important; font-size:17px!important;  font-family: 'Josefin Sans', sans-serif !important; font-weight:600 !important; margin-left:-2px}
+.ie6 #menu li, .ie7 #menu li { display: inline; }
+.ie6 #magic-line {bottom: -3px}
+
+/*HOME*/
+/* -------------------------------------------- */
+.content .listagem-home{float:left; width:100%; margin-left:5px; margin-left:15px\9; margin-bottom:30px;}
+.content .listagem-home li{background-color:#f8f8f8; width:232px; min-height:390px; float:left; margin-right:10px; margin-right:15px\9; border:solid 0px;}
+.content .listagem-home li:last-child{margin-right:0px;}
+.content .listagem-home li h2 { width:232px; height:52px; position:relative; z-index:1; font-family:'Josefin Sans',sans-serif !important; font-weight:600 !important; font-size:28px; color:#FFF; padding-left:20px; padding-top:10px;}
+.content .listagem-home li .img{position:relative; z-index:0; margin-top:-52px;}
+.content .listagem-home li .text{position:relative; z-index:0; margin-top:-48px; cursor:pointer; min-height:210px; border:solid 0px;transition: All .2s ease-in-out; -webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;}
+.content .listagem-home li .text:hover{position:relative; z-index:0; margin-top:-68px;transition: All .2s ease-in-out; -webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;}
+.content .listagem-home li .text h3{font-family:'Ubuntu'; color:#808285; font-size:22px; padding-left:17px; padding-top:40px; font-weight:bold; line-height:24px;}
+.content .listagem-home li .text p{font-family:'Ubuntu'; color:#808285; font-size:14px; padding-left:17px; padding-right:17px; padding-top:10px; font-weight: 400; line-height:24px;}
+
+/* APRESENTAÇÃO */
+/* -------------------------------------------- */
+.content-interna .pagapresentacao{ padding-bottom:30px; float:left; border:solid 0px;}
+.content-interna .pagapresentacao li{ float:left; width:458px; border:solid 0px;}
+.content-interna .pagapresentacao li:last-child { margin-left:40px; border:solid 0px; width:450px;}
+
+.content-interna .pagapresentacao h2{ font-family:'Josefin Sans',sans-serif !important; font-weight:300 !important; font-size:56px; color:#8682ac; border-bottom: solid 1px; border-color:#c7c7c7; width:458px; padding-bottom:5px; margin-top:35px; margin-bottom:22px;}
+.content-interna .pagapresentacao p{ font-family:'Josefin Sans',sans-serif !important; font-weight:300 !important; font-size:17px; color:#808285; line-height:24px;}
+
+.texto { width: 515px}
+.texto h4 { font-size: 16px; font-weight: bold; font-family: 'Ubuntu',sans-serif; color: #808285}
+.texto p { margin-bottom: 10px}
+.box-foto { width: 401px; height: 425px; position: relative; margin-top: 40px; float: right;}
+.title-box-foto { position: absolute; width: 100%; text-align: center; background:rgba(0,0,0, 0.6); font-size: 26px; font-family: 'Josefin Sans',sans-serif !important; color: #fff; height: 65px; line-height: 65px;}
+.border-triangular { background: url(./assets/images/testemunhos_bottom.png); width: 100%; height: 92px; position: absolute; bottom: 0;}
+
+.parceiros { clear: both; width: 100%; margin-bottom: 10px}

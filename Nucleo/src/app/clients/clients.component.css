@@ -1,0 +1,18 @@
+/* CLIENTES */
+/* -------------------------------------------- */
+.content-interna .pagclientes{ padding-bottom:0px; float:left;}
+.content-interna .pagclientes h2{ font-family:'Josefin Sans',sans-serif !important; font-weight:300 !important; font-size:42px; color:#8682ac; border-bottom: solid 1px; border-color: #c7c7c7; width:500px; padding-bottom:21px; margin-top:35px; margin-bottom:15px;}
+
+.content-interna .pagclientes ul{ border:solid 0px; float:left !important; position:relative; width:610px; margin-bottom: 10px;}
+.content-interna .pagclientes ul li { float:left; width:150px; height:100px; border-left:solid 0px; border-bottom:solid 0px; border-color:#c8c7c7;text-align:center; vertical-align:middle;}
+/*.content-interna .pagclientes ul li:last-child {background-image:url(./assets/images/linhas_clientes1.png)}*/
+
+.content-interna .pagclientes .end{ border:solid 0px; float:right; position:relative; width:610px;}
+.content-interna .pagclientes .end li { float:left; width:150px; height:100px; border-left:solid 0px; border-bottom:solid 0px; border-color:#c8c7c7;text-align:center; vertical-align:middle;}
+/*.content-interna .pagclientes .end li:last-child {background-image:url(./assets/images/linhas_clientes3.png)}*/
+
+.div-clientes {width: 25%; float: left; position: relative; text-align: center;}
+
+/* HEADER */
+/* -------------------------------------------- */
+#magic-line {position:absolute; bottom:-11px; left:0; width:110px; height:2px; background:#16133c; border-left:solid 0px !important; z-index:0; border:solid 1px !important;}

@@ -1,0 +1,19 @@
+/* CONTATO */
+/* -------------------------------------------- */
+.contato { float:left; width:960px; border:solid 0px; margin-top:35px;}
+.contato .li{ float:left; width:458px;}
+.contato .li p{ font-family: 'Ubuntu',sans-serif; font-size:16px; color:#939598; margin-top:20px; line-height:20px;}
+.contato .li h2{font-family:'Josefin Sans',sans-serif !important; font-weight:300 !important; font-size:34px; color:#686397;}
+.contato .li input{border:solid 0px; width:380px; height:25px; background-color:#f1f1f1; margin-bottom:6px; color:#73757c; font-size:14px; padding-left:5px;font-family:'Josefin Sans',sans-serif !important;}
+.contato .li textarea{background-color:#f1f1f1; width:380px; height:68px; color:#73757c; font-size:14px; padding-left:5px; resize:none;font-family:'Josefin Sans',sans-serif !important; position:relative; }
+.contato .li .btform{ background-color:#231f20; width:65px; color:#FFF;font-size:12px;  cursor:pointer;margin-top:-25px;  margin-left:315px; position: relative; transition: All .2s ease; -webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;-o-transition:all 0.2s ease;}
+.contato .li .btform:hover{background-color:#322d60; transition: All .2s ease; -webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;-o-transition:all 0.2s ease;}
+
+.abas1{position:relative; margin-top:35px; margin-bottom:140px; margin-left:0px; width:100%; min-height:200px; border:solid 0px; padding:0px !important;}
+.tabs1 ul{float:left; width:100%; border:solid 0px;}
+.tabs1 li { display:inline; margin-right:0px; float:left; margin-bottom:0px; border:solid 0px; margin-top:0px;}
+.tabs1 li a {       text-align:center; background-position: right top; float:left; font-family: 'Ubuntu',sans-serif;                   font-size:14px; color:#939598; padding-top:8px; padding-bottom:8px; padding-left:8px; padding-right:8px;}
+.tabs1 li a:hover { text-align:center; background-position: right top; float:left; font-family: 'Ubuntu',sans-serif; font-weight:bold; font-size:14px; color:#939598; padding-top:8px; padding-bottom:8px; padding-left:8px; padding-right:8px; transition: All .2s ease; -webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;-o-transition:all 0.2s ease;}
+.tabs1 li.active a {text-align:center; background-position: right top; float:left; font-family: 'Ubuntu',sans-serif; font-weight:bold; font-size:14px; color:#939598; padding-top:8px; padding-bottom:8px; padding-left:8px; padding-right:8px;}
+.content-tab1 { float:left; border:solid 0px; border-color:#F00; margin-top:0px; margin-left:0px; width:100%; position:relative}
+.content-tab1 ul li{float:left; width:458px; border:solid 0px;}
