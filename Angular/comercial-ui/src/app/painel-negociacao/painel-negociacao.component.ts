@@ -53,7 +53,7 @@ export class PainelNegociacaoComponent implements OnInit {
         })
 
       }
-      );
+    );
   }
 
 }
