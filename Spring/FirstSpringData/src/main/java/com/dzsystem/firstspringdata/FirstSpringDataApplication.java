@@ -1,13 +1,13 @@
-package com.zamparo.firstspringboot;
+package com.dzsystem.firstspringdata;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class FirstSpringDataApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(FirstSpringDataApplication.class, args);
 	}
 
 }
